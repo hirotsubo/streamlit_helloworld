@@ -16,6 +16,7 @@ option = st.selectbox(
 
 st.write('Your favorite color is ', option)
 
+
 # day9
 # st.header('Line chart')
 
