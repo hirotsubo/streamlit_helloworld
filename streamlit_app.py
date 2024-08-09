@@ -4,14 +4,31 @@ import pandas as pd
 import streamlit as st
 from datetime import time, datetime 
 
+# day12
+st.header('st.checkbox')
+st.write('What would you like to order?')
+
+icecream = st.checkbox('Ice cream')
+coffee = st.checkbox('Coffee')
+cola = st.checkbox('Cola')
+
+if icecream:
+    st.write("Great! Here's some more :softcream:")
+
+if coffee:
+    st.write("Okay, here's some coffee :coffee:")
+
+if cola:
+    st.write("Here you go")
+
 # day11
-st.header('st.multiselect')
-options = st.multiselect(
-    'What are your favorite colors',
-    ['Green', 'Yellow', 'Red', 'Blue'],
-    ['Yellow', 'Red']
-)
-st.write('You selected:', options)
+# st.header('st.multiselect')
+# options = st.multiselect(
+#     'What are your favorite colors',
+#     ['Green', 'Yellow', 'Red', 'Blue'],
+#     ['Yellow', 'Red']
+# )
+# st.write('You selected:', options)
 
 
 # day10
