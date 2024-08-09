@@ -4,6 +4,7 @@ import pandas as pd
 import streamlit as st
 from datetime import time, datetime 
 
+# day11
 st.header('st.multiselect')
 options = st.multiselect(
     'What are your favorite colors',
@@ -14,14 +15,14 @@ st.write('You selected:', options)
 
 
 # day10
-st.header('st.selectbox')
+# st.header('st.selectbox')
 
-option = st.selectbox(
-    'What is your favorite color?',
-    ('Blue', 'Red', 'Green')
-)
+# option = st.selectbox(
+#     'What is your favorite color?',
+#     ('Blue', 'Red', 'Green')
+# )
 
-st.write('Your favorite color is ', option)
+# st.write('Your favorite color is ', option)
 
 
 # day9
